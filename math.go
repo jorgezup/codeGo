@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(add(1, 2))
+	fmt.Println(soma(112, 10))
 }
 
-func add(a int, b int) int {
+func soma(a int, b int) int {
 	return a + b
 }

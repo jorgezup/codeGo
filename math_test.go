@@ -2,8 +2,11 @@ package main
 
 import "testing"
 
-func TestAdd(t *testing.T) {
-	if add(1, 2) != 3 {
-		t.Error("Expected 1 + 2 to equal 3")
+func TestSoma(t *testing.T) {
+
+	total := soma(15, 15)
+
+	if total != 30 {
+		t.Errorf("Resultado da some é inválido: Resultado %d. Esperado: %d", total, 30)
 	}
 }
